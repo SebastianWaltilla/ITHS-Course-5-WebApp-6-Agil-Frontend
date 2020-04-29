@@ -1,5 +1,7 @@
 # gitignore frontend / Webstorm, vuecli, vue 
 
+.idea
+
 ### macOS ###
 # General
 .DS_Store
