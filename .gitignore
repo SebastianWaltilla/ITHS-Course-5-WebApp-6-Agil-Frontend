@@ -1,7 +1,5 @@
 # gitignore frontend / Webstorm, vuecli, vue 
 
-
-
 ### macOS ###
 # General
 .DS_Store
@@ -51,11 +49,7 @@ $RECYCLE.BIN/
 
 # *.iml
 # modules.xml
-# .idea/misc.xml
 # *.ipr
-
-# Sonarlint plugin
-.idea/**/sonarlint/
 
 # End of https://www.gitignore.io/api/webstorm
 
