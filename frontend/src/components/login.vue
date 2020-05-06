@@ -6,6 +6,7 @@
     export default {
         name: "login"
     }
+    // för test
 </script>
 
 <style scoped>
