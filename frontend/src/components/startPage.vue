@@ -47,6 +47,8 @@
                 width: 100px ;
                 background-color: #93D2FA;
                 border-bottom-color: #1C75AD ;
+                border-bottom-width:5px ;
+                border-right-width: 5px;
                 border-right-color: #1C75AD ;
                 font-family: 'Luckiest Guy', Tahoma;
                 color: darkblue;
