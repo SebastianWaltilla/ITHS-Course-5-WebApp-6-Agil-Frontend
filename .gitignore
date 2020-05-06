@@ -60,7 +60,6 @@ logs
 **/*.backup.*
 **/*.back.*
 
-node_modules
 bower_components
 
 *.sublime*
@@ -74,7 +73,6 @@ sketch
 ### Vuejs ###
 # Recommended template: Node.gitignore
 
-node_modules/
 dist/
 npm-debug.log
 yarn-error.log
