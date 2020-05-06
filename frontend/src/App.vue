@@ -1,7 +1,10 @@
 <template>
+
+
   <div id="app">
 
-    <h1> Nu börjar det på riktigt </h1>
+    <headComponent> </headComponent>
+
     <!-- Document Header Starts
     // HEAD (menu)
   -------------------------------------------------
@@ -28,25 +31,30 @@
     -----------------------------------------------
     // footer komponent
     -->
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <startPage></startPage>
+    <footerComponent></footerComponent>
 
 
   </div>
+
+
+
+
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld.vue'
+
+  import headComponent from './components/headComponent'
+  import footerComponent from './components/footerComponent'
+  import startPage from './components/startPage'
+
 
   export default {
     name: 'App',
     components: {
-      head,
-      startPage,
-      studentPage,
-      teacherPage,
-      footer,
-      HelloWorld
+      headComponent,
+      footerComponent,
+      startPage
 
     }
   }
@@ -59,6 +67,8 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+    width: 800px;
+
   }
+
 </style>
