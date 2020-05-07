@@ -15,9 +15,15 @@
 <style scoped>
 
     .headerComponent {
-        background: #f53b3b;
+        font-family: 'Luckiest Guy', Tahoma;
+        position: fixed;
+        width: 100%;
         color: white;
+        text-align: center;
+        background: #f53b3b;
         font-size: 30px;
+        margin-left: -10px;
     }
+
 
 </style>

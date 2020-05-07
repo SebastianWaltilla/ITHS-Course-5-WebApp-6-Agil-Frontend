@@ -40,6 +40,8 @@ $RECYCLE.BIN/
 
 # User-specific stuff
 .idea
+frontend/node_modules/
+
 
 # File-based project format
 *.iws

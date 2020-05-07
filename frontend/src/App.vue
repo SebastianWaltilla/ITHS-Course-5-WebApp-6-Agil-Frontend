@@ -31,7 +31,7 @@
     -----------------------------------------------
     // footer komponent
     -->
-    <startPage></startPage>
+    <startPage id="start"></startPage>
     <footerComponent></footerComponent>
 
 
@@ -68,7 +68,9 @@
     text-align: center;
     color: #2c3e50;
     width: 800px;
-
+  }
+  #start{
+    padding: 120px 200px 200px 120px;
   }
 
 </style>
