@@ -15,6 +15,7 @@
 <style scoped>
 
     .headerComponent {
+        font-family: 'Luckiest Guy', Tahoma;
         position: fixed;
         width: 100%;
         color: white;
