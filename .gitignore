@@ -41,7 +41,7 @@ $RECYCLE.BIN/
 # User-specific stuff
 .idea
 frontend/node_modules/
-
+node_modules/
 
 # File-based project format
 *.iws
