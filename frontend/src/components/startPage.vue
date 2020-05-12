@@ -1,26 +1,51 @@
 <template>
-    <div class = "frame">
+
+    <div id="app" class = "frame">
 
 
         <p> info how to play </p>
         <ul>
             <li>        <button class="startButton"> Single play   </button>   </li>
-            <li>        <button class="startButton">  Enter room code  </button><input/>   </li>
+            <li>        <button class="startButton">  Enter room code</button>
+                        <input id="rumskod" type="text" value="Enter room code"/>
+                        <input id="nickName" type="text" value="Your name here"/>
+                        <input  id="skickaRumsKod" type="submit" value="Starta" />
+
+            </li>
             <li>        <button class="startButton">   Login  </button>   </li>
         </ul>
+        <router-link to="/game"></router-link>
+
+        <router-view></router-view>
 
 
-
-
-
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 
     </div>
+
+
 </template>
 
 <script>
+    import VueRouter from "vue-router";
+
     export default {
         name: "startPage"
     }
+
+    const Game = { template: '<div>foo</div>' }
+
+
+    const routes = { path: '/foo', component: Foo }
+
+    const router = new VueRouter({
+        routes // short for `routes: routes`
+    })
+
+    const app = new Vue({
+        router
+    }).$mount('#app')
 </script>
 
 <style scoped>
